@@ -203,8 +203,8 @@ nav {
 
 .contact .container {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #132a13;
 }
 
@@ -221,6 +221,10 @@ nav {
   color: white;
 }
 
+.contact fieldset {
+  border-style: none;
+}
+
 .contact label,
 button,
 input,
@@ -235,30 +239,38 @@ textarea {
 .contact label {
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 18px;
 }
 
 .contact input {
   margin-top: 10px;
+  width: 350px;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20ps;
+  border-radius: 50px;
+  font-size: 14px;
+  border-style: none;
 }
 
 .contact textarea {
+  width: 350px;
+  height: 100px;
   margin-top: 10px;
+  border-radius: 10px;
+  border-style: none;
 }
 
 .contact button {
-  background-color: #f3a740;
-}
-
-.contact .box-contact button {
   width: 100px;
   height: 30px;
-  border-radius: 30px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 50px;
   border-style: none;
-  font-size: 16px;
-}
-
-.contact .box-contact label {
-  font-size: 16;
+  background-color: #f3a740;
+  font-size: 18px;
+  text-align: center;
 }
 
 /* footer style */
