@@ -55,6 +55,7 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 3;
 }
 
 .box-navigation .logo img {
@@ -284,7 +285,7 @@ footer {
 }
 
 footer p {
-  color: #white;
+  color: white;
 }
 
 /* @media screen */
