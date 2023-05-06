@@ -259,7 +259,11 @@ textarea {
   width: 350px;
   height: 100px;
   margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20ps;
   border-radius: 10px;
+  font-size: 14;
   border-style: none;
 }
 
